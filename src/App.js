@@ -1,10 +1,12 @@
+import React from 'react';
+import Header from "./components/Header";
+import './App.css';
 
 
 function App() {
   return (
     <div>
-      <h1>I am Damien Nsoh and I really love sex paa</h1>
-      <h2>To tell you that I love Shifra is an understatement</h2>
+      <Header/>
     </div>
   );
 }
