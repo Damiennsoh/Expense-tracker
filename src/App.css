@@ -1,4 +1,32 @@
-h2{
-    color:blue;
-    text-align: center;
+body {
+    background-color: cornsilk;
 }
+
+h2{
+    color:black;
+    text-align: center;
+    margin-top: 2%;
+}
+
+h1 {
+    letter-spacing: 1px;
+    margin: 0;
+    color: brown;
+    text-align: center;
+  }
+
+  h4{
+    text-align: center;
+    margin: 0;
+    color:cornflowerblue
+  }
+  
+
+/* container */
+.container {
+    margin: 0 auto;
+    width: 350px;
+    border: 2px;
+    border-color: blueviolet;
+    
+  }
