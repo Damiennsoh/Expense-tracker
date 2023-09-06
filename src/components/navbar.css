@@ -1,0 +1,19 @@
+/* navbar.css */
+
+.navbar-dark .navbar-brand {
+    background-color: #a4d61b;
+    /* Add any other custom styles for the navbar brand */
+  }
+  
+  .navbar-dark .navbar-nav .nav-link {
+    background-color: #48c52f;
+
+    /* Add any other custom styles for the navbar links */
+  }
+
+  /* navbar.css */
+
+.navbar-dark .navbar-nav .nav-link:hover {
+    background-color: #3715e0;
+    /* Add any other custom styles for the hover effect */
+  }
