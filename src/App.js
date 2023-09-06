@@ -6,6 +6,7 @@ import MyNavbar from './components/MyNavbar';
 import Footer from './components/Footer';
 import IncomeExpenses from './components/IncomeExpenses.js';
 import TransactionList from './components/TransactionList';
+import AddTransaction from './components/AddTransaction';
 
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
         <Balance />
         <IncomeExpenses />
         <TransactionList/>
+        <AddTransaction/>
       </div>
       <Footer />
     </div>
