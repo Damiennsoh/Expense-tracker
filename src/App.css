@@ -20,13 +20,53 @@ h1 {
     margin: 0;
     color:cornflowerblue
   }
+
+
+  .app {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+
+
+  .inc-exp-container {
+    background-color: #fff;
+    box-shadow: var(--box-shadow);
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+  }
+  
+  .inc-exp-container > div {
+    flex: 1;
+    text-align: center;
+  }
+
+  .inc-exp-container > div:first-of-type {
+    border-right: 1px solid #dedede;
+  }
+
+
+
+
+  /* .content {
+    border: 1px solid rgb(80, 25, 192);
+    padding: 10px;
+    
+  } */
+
+
+  .content {
+    flex-grow: 1;
+  }
   
 
-/* container */
+/* container
 .container {
     margin: 0 auto;
     width: 350px;
     border: 2px;
     border-color: blueviolet;
     
-  }
+  } */
